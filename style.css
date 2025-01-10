@@ -1,0 +1,131 @@
+nav{
+    background-color:#F5F5F5;
+}
+.nav-sign{
+    font-size: 15px;
+}
+.nav-title{
+    font-size: 32px;
+}
+.nav-button{
+    width: 116;
+    height: 52px;
+     
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+    text-align: center;
+}
+.Explore-button{
+    background-color:#006A50;
+    color: #FFFFFF;
+    margin-left: 60px;
+    margin-bottom: 140px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: none;
+     
+    
+}
+.details{
+    display: flex;
+}
+.flag-image{
+padding: 64px;
+}
+
+.headline{
+    margin: 60px;
+    margin-top: 140px;
+    font-size:56px;
+} 
+.bg-color{
+    border-radius: 24px;
+    background-color: #3C916A;
+}
+/* section style */
+h1{
+    font-size: 40px;
+     
+     
+}
+/* .my-experience{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+} */
+.power{
+    display: flex;
+    gap: 25px;
+}
+.power-title{
+    font-size: 20px;
+}
+.power-discription{
+    font-size: 16px;
+}
+.skill{
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 50px 0px #F1F1F3;
+}
+/* future section */
+.vision{
+    font-size: 40px;
+    /* margin: 30px; */
+}
+.title-bangladesh{
+    font-size: 25px;
+}
+
+.energy-source{
+    display: flex;
+    gap: 25px;
+    padding: 24px;
+    /* justify-content: space-between; */
+     
+}
+.energy-title{
+
+}
+
+.digital{
+    background-color: #81B4FC;
+    border-radius: 5px;
+    padding: 30px;
+}
+.Green{
+    background-color: #C6E4D6;
+    border-radius: 5px;
+    padding: 30px;
+}
+.Modern{
+    background-color: #F7EBCF;
+    border-radius: 5px;
+    padding: 30px;
+}
+.dig-btn{
+    background-color: #5490F5;
+    margin: 32px;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 11px;
+    border: none;
+}
+.gre-btn{
+    background-color: #09A15C;
+    margin: 32px;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 11px;
+    border: none;
+}
+.mod-btn{
+    background-color: #FFC239;
+    margin: 32px;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 11px;
+    border: none;
+}
