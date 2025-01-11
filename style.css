@@ -1,3 +1,4 @@
+
 nav{
     background-color:#F5F5F5;
 }
@@ -128,4 +129,154 @@ h1{
     padding: 20px;
     border-radius: 11px;
     border: none;
+}
+/* Dr. Muhammad Yunus */
+/* ./B11A1--assignment-1/assets/quote-bg.png */
+.BD{
+    background-image: url(./B11A1--assignment-1/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 24px;
+     
+}
+.bg-clr{
+    background-color:#F5F5F5;
+    border-radius: 16px;
+}
+
+/* Matter */
+.matters{
+     background-color: #F1F1F3;
+    
+}
+.Questions{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: #C6E4D6;
+     
+}
+.agree-btn{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+/* Recent NeWs here  */
+.news{
+    font-size:40px;
+    font-weight: bold;
+}
+.extra{
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+.satelight{
+    /* border-radius: 20px; */
+    display: flex;
+    margin-top: 10px
+}
+.satelight-title{
+    margin: 18px;
+}
+.time-date{
+    display: flex;
+}
+.read{
+    font-size: 20px;
+    font-weight: 500px;
+    background-color: #2FB493;
+    border-radius: 8px;
+    border: none;
+    padding: 13px;
+    margin: 24px;
+}
+/* Title-02 */
+.satelight{
+    display: flex;
+    margin-top: 10px;
+}
+
+.satelight-title{
+    margin: 18px;
+    /* display: flex; */
+}
+.time-date{
+    display: flex;
+}
+.read{
+    font-size: 20px;
+    font-weight: 500px;
+    background-color: #2FB493;
+    border-radius: 8px;
+    border: none;
+    padding: 13px;
+}
+.satelight-titles{
+    display: flex;
+}
+.donate{
+    background-color: #fef8f8;
+    text-align: center;
+}
+/* .taka{
+    font-size: 40px;
+    border-radius: 16px;
+    background-color: #fefafa;
+    display: flex;
+    padding: 40px;
+    gap: 24px;
+    justify-content: space-around;
+
+} */
+ .taka{
+    display: flex;
+    font-size: 40px;
+     
+    padding: 40px;
+    justify-content: space-around;
+ }
+.taka-1{
+    background-color: #FFFFFF;
+}
+.taka-2{
+     
+    background-color: #C6E4D6;
+    border-radius: 16px;
+}
+.amount{
+    text-align: center;
+    font-size: 20px;
+}
+.done-button{
+    text-align: center;
+    font-size: 20px;
+}
+.done{
+    background-color: #09A15C;
+    border-radius: 8px;
+    border: none;
+    padding: 30px
+}
+/* Footer section */
+.feedback{
+    text-align: center;
+    background-color: #C6E4D6;
+}
+.subscribe{
+    font-size: 40px;
+    /* font-weight: bold; */
+    
+}
+.subs-btn{
+    font-size: 20px;
+    border: none;
+    border-radius: ;
+}
+.bg{
+    background-color: #006A50;
+    font-size: 20px;
+    border: none;
+    
 }
