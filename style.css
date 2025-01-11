@@ -266,17 +266,30 @@ h1{
 }
 .subscribe{
     font-size: 40px;
+    
     /* font-weight: bold; */
     
 }
 .subs-btn{
     font-size: 20px;
     border: none;
-    border-radius: ;
+    border-radius: 8px 0px  0px 8px;
+    /* margin-bottom: 25px; */
 }
 .bg{
     background-color: #006A50;
     font-size: 20px;
     border: none;
-    
+    border-radius: 0px 8px 8px 0px;
+}
+.sub{
+    margin-bottom: 80px;
+}
+/* Part number 03 */
+.bd{
+    font-size: 32px;
+    font-weight: bold;
+}
+.bd-logo{
+    text-align: center;
 }
