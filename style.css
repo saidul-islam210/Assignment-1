@@ -1,9 +1,14 @@
 
+*{
+    max-width:1600px;
+    max-height: 5180;
+}
 nav{
     background-color:#F5F5F5;
 }
 .nav-sign{
-    font-size: 22px;
+    font-size: 25px;
+    background-color: rgb(94, 198, 246);
 }
 .nav-title{
     font-size: 32px;
@@ -85,7 +90,7 @@ h1{
     display: flex;
     gap: 25px;
     padding: 24px;
-    /* justify-content: space-between; */
+    /* justify-content: space-around; */
      
 }
 .energy-title{
@@ -182,7 +187,8 @@ h1{
     margin: 18px;
 }
 .time-date{
-    display: flex;
+    /* display: flex; */
+    /* display: inline; */
 }
 .read{
     font-size: 20px;
@@ -201,7 +207,6 @@ h1{
 
 .satelight-title{
     margin: 18px;
-    /* display: flex; */
 }
 .time-date{
     display: flex;
@@ -218,52 +223,62 @@ h1{
     display: flex;
 }
 .donate{
-    background-color: #fef8f8;
+    background-color: #f0eded;
     text-align: center;
+    
 }
-/* .taka{
-    font-size: 40px;
-    border-radius: 16px;
-    background-color: #fefafa;
-    display: flex;
-    padding: 40px;
-    gap: 24px;
-    justify-content: space-around;
-
-} */
- .taka{
-    display: flex;
-    font-size: 40px;
-     
-    padding: 40px;
-    justify-content: space-around;
- }
-.taka-1{
+.donate-box{
+    background-color: #F1F1F3;
+}
+.taka{
     background-color: #FFFFFF;
+    border-radius: 8px;
+}
+.total-taka{
+    padding: 40px;
+    font-size: 40px;
+    gap: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
 }
 .taka-2{
-     
-    background-color: #C6E4D6;
-    border-radius: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #98daca;
 }
 .amount{
     text-align: center;
     font-size: 20px;
+    justify-content: center;
+}
+.other-amount{
+    background-color:#FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 25px 25px 0px;
+    border-radius: 12px;
+    border: none;
+    padding: 20px 150px;
+    opacity: 60%;
+
 }
 .done-button{
     text-align: center;
     font-size: 20px;
 }
 .done{
+    font-size: 18px;
     background-color: #09A15C;
     border-radius: 8px;
     border: none;
-    padding: 30px
+    padding: 20px
 }
 /* Footer section */
 .feedback{
     text-align: center;
     background-color: #C6E4D6;
+    border-radius: 16px;
 }
 .subscribe{
     font-size: 40px;
@@ -273,13 +288,15 @@ h1{
 }
 .subs-btn{
     font-size: 20px;
+    padding: 17px;
     border: none;
     border-radius: 8px 0px  0px 8px;
     /* margin-bottom: 25px; */
 }
 .bg{
-    background-color: #006A50;
+    background-color: #03906d;
     font-size: 20px;
+    padding: 17px;
     border: none;
     border-radius: 0px 8px 8px 0px;
 }
